@@ -13,7 +13,7 @@ public class DialogManager : MonoBehaviour
     void Start()
     {
         animator.ShowText("<wiggle a=0.1>Hellooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
-        animator.SkipTypewriter();
+        //animator.SkipTypewriter();
         //animator.onTextShowed
     }
 
