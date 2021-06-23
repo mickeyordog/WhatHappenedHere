@@ -5,6 +5,8 @@ using UnityEngine;
 public class Sigil : MonoBehaviour
 {
     public Transform mask;
+    [TextArea]
+    public string[] text;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class Sigil : MonoBehaviour
         if (player)
         {
             mask.gameObject.SetActive(true);
+            DialogManager.instance.SetDialog(text);
         }
     }
 
@@ -32,6 +35,7 @@ public class Sigil : MonoBehaviour
         if (player)
         {
             mask.gameObject.SetActive(false);
+            DialogManager.instance.Deactivate();
         }
     }
 }
