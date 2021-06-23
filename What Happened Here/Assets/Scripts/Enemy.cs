@@ -15,4 +15,13 @@ public class Enemy : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        PlayerController player = collision.transform.GetComponent<PlayerController>();
+        if (player)
+        {
+            player.Respawn();
+        }
+    }
 }

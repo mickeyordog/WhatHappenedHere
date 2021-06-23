@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 5f;
     Rigidbody2D rb;
     SpriteRenderer sr;
+
+    public Vector3 lastSigilLocation;
 
     public bool hasRedCrystal = false;
 
@@ -23,7 +26,15 @@ public class PlayerController : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
+        lastSigilLocation = transform.position;
     }
+
+    public void Respawn()
+    {
+        transform.position = lastSigilLocation;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

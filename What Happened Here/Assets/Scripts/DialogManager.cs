@@ -83,6 +83,7 @@ public class DialogManager : MonoBehaviour
     public void Deactivate()
     {
         isActive = false;
+        animator.SkipTypewriter();
         anim.SetBool("shouldBeUp", false);
     }
 }

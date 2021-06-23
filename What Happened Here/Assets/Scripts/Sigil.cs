@@ -26,6 +26,8 @@ public class Sigil : MonoBehaviour
         {
             mask.gameObject.SetActive(true);
             DialogManager.instance.SetDialog(text);
+
+            player.lastSigilLocation = transform.position + Vector3.down;
         }
     }
 
