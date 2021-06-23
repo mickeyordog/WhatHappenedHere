@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     SpriteRenderer sr;
 
+    public bool hasRedCrystal = false;
+
     public static PlayerController instance;
 
     private void Awake()
@@ -39,6 +41,15 @@ public class PlayerController : MonoBehaviour
         } else if (newVeloc.x > 0f)
         {
             sr.flipX = false;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("RedCrystal"))
+        {
+            Destroy(collision.gameObject);
+            hasRedCrystal = true;
         }
     }
 }
