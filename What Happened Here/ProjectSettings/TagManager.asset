@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - RedCrystal
+  - BlueCrystal
   layers:
   - Default
   - TransparentFX

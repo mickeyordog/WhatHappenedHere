@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 lastSigilLocation;
 
     public bool hasRedCrystal = false;
+    public bool hasBlueCrystal = false;
 
     public static PlayerController instance;
 
@@ -61,6 +62,10 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(collision.gameObject);
             hasRedCrystal = true;
+        } else if (collision.gameObject.CompareTag("BlueCrystal"))
+        {
+            Destroy(collision.gameObject);
+            hasBlueCrystal = true;
         }
     }
 }

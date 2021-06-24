@@ -7,17 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6163084950834456387, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
+      propertyPath: color
+      value: blue
+      objectReference: {fileID: 0}
     - target: {fileID: 7393321834728590292, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7393321834728590292, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.5
+      value: -68.5
       objectReference: {fileID: 0}
     - target: {fileID: 7393321834728590292, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.5
+      value: 18.5
       objectReference: {fileID: 0}
     - target: {fileID: 7393321834728590292, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: -6884013454210323813, guid: 08bf88bff3628fd4cb765ac825c3b53d, type: 3}
     - target: {fileID: 7393321834728590294, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
       propertyPath: m_Name
-      value: LockedBlockBlue
+      value: LockedBlockBlue Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3999fed1bf2b1f458c2a9c5577ec29c, type: 3}
