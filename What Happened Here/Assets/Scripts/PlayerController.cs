@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public bool hasRedCrystal = false;
     public bool hasBlueCrystal = false;
+    public bool hasYellowCrystal = false;
 
     public static PlayerController instance;
 
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // garbage code, only doing this bc it's a game jam
         if (collision.gameObject.CompareTag("RedCrystal"))
         {
             Destroy(collision.gameObject);
@@ -66,6 +68,11 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(collision.gameObject);
             hasBlueCrystal = true;
+        }
+        else if (collision.gameObject.CompareTag("YellowCrystal"))
+        {
+            Destroy(collision.gameObject);
+            hasYellowCrystal = true;
         }
     }
 }

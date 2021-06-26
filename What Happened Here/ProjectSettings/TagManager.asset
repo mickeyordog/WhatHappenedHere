@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RedCrystal
   - BlueCrystal
+  - YellowCrystal
   layers:
   - Default
   - TransparentFX
