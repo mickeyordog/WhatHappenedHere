@@ -523,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714154983116, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714904389982, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: m_Name
@@ -3317,7 +3317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714154983116, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714904389982, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: m_Name
@@ -30738,7 +30738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714154983116, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714904389982, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: m_Name
@@ -32174,7 +32174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714154983116, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714904389982, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: m_Name
@@ -32813,7 +32813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714154983116, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714904389982, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: m_Name
@@ -34984,7 +34984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714154983116, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: speed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6842440714904389982, guid: 311e396965030b443a61728126ce04c8, type: 3}
       propertyPath: m_Name
