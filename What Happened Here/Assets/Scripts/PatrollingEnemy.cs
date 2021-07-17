@@ -35,13 +35,16 @@ public class PatrollingEnemy : Enemy
     // Update is called once per frame
     void Update()
     {
-        transform.position += velocityToTarget * Time.deltaTime;
-        
+        //transform.position += velocityToTarget * Time.deltaTime;
+        transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+
         if (Vector2.Distance(transform.position, targetPos) < 0.05f)
         {
             targetIndex = (targetIndex + 1) % waypoints.Length;
             targetPos = waypoints[targetIndex];
             velocityToTarget = (targetPos - transform.position).normalized * speed;
         }
+
+        
     }
 }

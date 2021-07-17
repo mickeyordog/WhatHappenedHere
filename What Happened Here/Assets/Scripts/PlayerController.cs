@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public bool hasYellowCrystal = false;
 
     public static PlayerController instance;
+    public bool canMove = true;
 
     private void Awake()
     {
@@ -55,6 +56,9 @@ public class PlayerController : MonoBehaviour
         {
             sr.flipX = false;
         }
+
+        if (!canMove)
+            rb.velocity = Vector2.zero;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

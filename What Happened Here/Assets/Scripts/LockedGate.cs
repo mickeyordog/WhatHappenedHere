@@ -29,5 +29,9 @@ public class LockedGate : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if (player && player.hasYellowCrystal && color == "yellow")
+        {
+            Destroy(gameObject);
+        }
     }
 }
